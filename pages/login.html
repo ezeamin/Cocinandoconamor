@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="blog de cocina tradicional argentina salada y dulce"
+    />
+    <meta
+      name="author"
+      content="Amin Ezequiel, Lorenzetti Agustina, Mercado David, Perez Ramiro, Romero Abadie Pablo"
+    />
+    <meta name="keywords" content="login, cocina, recetas" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../pages/entrada-pizza.html" />
+    <link rel="shortcut icon" href="../img/logo-icon-red.png"/>
+    <script
+      src="https://kit.fontawesome.com/10942c11e8.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Cocinando con amor - Login</title>
+  </head>
+  <body>
+    <main>
+      <div class="izq px-5">
+        <a href="../index.html" class="btn btn-outline-secondary btn-volver"
+          >&LeftArrow; Volver</a
+        >
+        <div class="d-flex flex-column justify-content-center login-izq">
+          <h1 class="display-6">Bienvenido</h1>
+          <hr class="w-100 mb-4 mt-1" />
+          <form>
+            <div class="form-query w-75">
+              <label for="nombre">Nombre de usuario</label>
+              <input
+                type="text"
+                name=""
+                id="nombre"
+                class="form-control mt-2"
+                required
+                minlength="3"
+                maxlength="15"
+              />
+            </div>
+            <div class="mt-3 mb-0 w-75 form-query">
+              <label for="contra">Contraseña</label>
+              <input
+                type="password"
+                name=""
+                id="contra"
+                class="form-control mt-2"
+                required
+              />
+            </div>
+            <div class="mt-2 form-query">
+              <a
+                href="#"
+                class="text-secondary"
+                data-bs-toggle="modal"
+                data-bs-target="#modalContrasenia"
+              >
+                ¿Olvidó su contraseña?
+              </a>
+            </div>
+            <div class="d-flex justify-content-start mb-3 form-query">
+              <a href="#" class="text-secondary">Registrate</a>
+            </div>
+            <div class="form-check form-query mt-5">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="recordarDatos"
+              />
+              <label class="form-check-label" for="recordarDatos">
+                Recuerda mis datos
+              </label>
+            </div>
+            <div class="d-flex justify-content-end align-items-center w-100">
+              <a
+                href="../index.html"
+                class="btn btn-outline-secondary btn-volver-2 me-2 mt-5 d-none"
+                >&LeftArrow; Volver</a
+              >
+              <button type="submit" class="btn botonEntrar mt-5">Entrar</button>
+            </div>
+            <hr />
+            <p class="text-secondary">O ingresá con</p>
+            <a href="#" class="text-secondary"
+              ><i class="fab fa-google fa-2x"></i
+            ></a>
+            <a href="#" class="text-secondary"
+              ><i class="fab fa-facebook fa-2x ms-3"></i
+            ></a>
+          </form>
+        </div>
+      </div>
+      <div class="rect-login d-none">
+        <h1 class="display-6 text-center mt-4">Bienvenido</h1>
+        <div class="mb-4 d-flex justify-content-center">
+          <hr class="w-75" />
+        </div>
+        <form>
+          <div class="mx-5 form-query">
+            <label for="nombre2">Nombre de usuario</label>
+            <input
+              type="text"
+              name=""
+              id="nombre2"
+              class="form-control mt-2"
+              required
+              minlength="3"
+              maxlength="15"
+            />
+          </div>
+          <div class="mt-3 mb-0 mx-5 form-query">
+            <label for="contra2">Contraseña</label>
+            <input
+              type="password"
+              name=""
+              id="contra2"
+              class="form-control mt-2"
+              required
+            />
+          </div>
+          <div class="d-flex justify-content-end mx-5 mt-2 form-query">
+            <a
+              href="#"
+              class="text-secondary"
+              data-bs-toggle="modal"
+              data-bs-target="#modalContrasenia"
+            >
+              ¿Olvidó su contraseña?
+            </a>
+          </div>
+          <div class="d-flex justify-content-end mx-5 mb-3 form-query">
+            <a href="#" class="text-secondary">Registrate</a>
+          </div>
+          <div class="form-check mx-5 form-query">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="recordarDatos2"
+            />
+            <label class="form-check-label" for="recordarDatos2">
+              Recuerda mis datos
+            </label>
+          </div>
+          <div
+            class="form-query d-flex justify-content-between align-items-center"
+          >
+            <a
+              href="../index.html"
+              class="btn btn-outline-secondary btn-volver-2 me-2 mt-4"
+              >&LeftArrow; Volver</a
+            >
+            <button type="submit" class="btn colorbotones mt-4">Entrar</button>
+          </div>
+          <hr class="mx-5 form-query" />
+          <div
+            class="
+              d-flex
+              mt-3
+              mx-5
+              justify-content-between
+              form-query
+              align-items-center
+            "
+          >
+            <p class="text-secondary m-0">O ingresá con</p>
+            <div>
+              <a href="#" class="text-secondary"
+                ><i class="fab fa-google fa-2x"></i
+              ></a>
+              <a href="#" class="text-secondary"
+                ><i class="fab fa-facebook fa-2x ms-3"></i
+              ></a>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="fondo">
+        <img src="../img/login/cocina.jpg" alt="" class="w-100 h-100 imagen" />
+      </div>
+      <div class="logo-login">
+        <img
+          src="../img/logo.PNG"
+          alt="logo Cocinando con Amor"
+          class="logo-login"
+        />
+      </div>
+    </main>
+    <div
+      class="modal fade"
+      id="modalContrasenia"
+      tabindex="-1"
+      aria-labelledby="modalContra"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalContra">Recuperar contraseña</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <p>Para recuperar su contraseña, siga los siguientes pasos:</p>
+              <ol>
+                <li>Contacte con soporte, en "contacto"</li>
+                <li>
+                  Espere que lo contactemos, no demorará mas de 24 hs habiles
+                </li>
+              </ol>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn colorbotones"
+                data-bs-dismiss="modal"
+              >
+                Volver
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
